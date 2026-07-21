@@ -1,5 +1,6 @@
 public with sharing class AccountController {
   //new apex class
+  //test comment2
   public static List<Account> getAllActiveAccounts() {
     return [
     SELECT Id, Name, Active__c, Notes__c

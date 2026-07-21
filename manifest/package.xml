@@ -192,7 +192,12 @@
         <members>Product__c.Rear_Brakes__c</members>
         <members>Product__c.Seat_Color__c</members>
         <members>Product__c.Waterbottle_Color__c</members>
+        <members>Project__c.Budget__c</members>
+        <members>Project__c.Project_ID__c</members>
         <members>Project__c.Solutions_Architect__c</members>
+        <members>Project__c.Start_Date__c</members>
+        <members>SalesCall__c.Answered__c</members>
+        <members>SalesCall__c.InitialOutreach__c</members>
         <members>Voter__c.Address__c</members>
         <members>Voter__c.BirthDate__c</members>
         <members>Voter__c.PhoneNumber__c</members>
@@ -215,6 +220,9 @@
         <members>Order__c</members>
         <members>Product_Family__c</members>
         <members>Product__c</members>
+        <members>Project__c</members>
+        <members>SalesCall__c</members>
+        <members>Store__c</members>
         <members>Voter__c</members>
         <name>CustomObject</name>
     </types>
@@ -304,6 +312,7 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>Account_Revenue_Update</members>
         <members>AnnuelRevFlow</members>
         <members>TestProcessBuilder</members>
         <members>UpdateContactFlow</members>
@@ -454,6 +463,7 @@
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
         <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
         <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
+        <members>SalesCall__c-SalesCall Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -473,6 +483,7 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>StandardShippingRate-Standard Shipping Rate Layout</members>
+        <members>Store__c-Store Layout</members>
         <members>Task-Task Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
@@ -506,6 +517,7 @@
         <members>errorPanel</members>
         <members>helloWorld</members>
         <members>heroDetails</members>
+        <members>housingMap</members>
         <members>ldsUtils</members>
         <members>orderItemTile</members>
         <members>orderStatusPath</members>
@@ -591,6 +603,7 @@
         <members>Experience_Profile_Manager</members>
         <members>ExternalUser_PS</members>
         <members>ModifyAllAccounts_PS</members>
+        <members>Modify_All_Data</members>
         <members>View_All_Data</members>
         <members>View_Modify_All_And_API</members>
         <members>Volunteer</members>
@@ -618,8 +631,10 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
+        <members>New_Marketing_User</members>
         <members>New_SF_Admin</members>
         <members>New_Standard_User</members>
+        <members>Standard_User_New</members>
         <name>Profile</name>
     </types>
     <types>

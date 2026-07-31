@@ -27,7 +27,6 @@
         <members>ProductRecordInfoControllerTest</members>
         <members>SOQLController</members>
         <members>SOQLControllerTest</members>
-        <members>SalesCallController</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -211,8 +210,6 @@
         <members>Project__c.Solutions_Architect__c</members>
         <members>SalesCall__c.Answered__c</members>
         <members>SalesCall__c.InitialOutreach__c</members>
-        <members>Sales_Call__c.Answered__c</members>
-        <members>Sales_Call__c.Initial_Outreach__c</members>
         <members>Store__c.Location__c</members>
         <members>Ticket__c.Description__c</members>
         <members>Ticket__c.OpenedDate__c</members>
@@ -240,7 +237,6 @@
         <members>Product_Family__c</members>
         <members>Product__c</members>
         <members>SalesCall__c</members>
-        <members>Sales_Call__c</members>
         <members>Store__c</members>
         <members>Ticket__c</members>
         <members>Voter__c</members>
@@ -491,7 +487,6 @@
         <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
         <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
         <members>SalesCall__c-SalesCall Layout</members>
-        <members>Sales_Call__c-Sales Call Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -661,31 +656,10 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
-        <members>Admin</members>
-        <members>Analytics Cloud Integration User</members>
-        <members>Analytics Cloud Security User</members>
-        <members>Anypoint Integration</members>
-        <members>ContractManager</members>
-        <members>Cross Org Data Proxy User</members>
-        <members>Custom%3A Marketing Profile</members>
-        <members>Custom%3A Sales Profile</members>
-        <members>Custom%3A Support Profile</members>
-        <members>Force%2Ecom - App Subscription User</members>
-        <members>Force%2Ecom - Free User</members>
-        <members>Identity User</members>
-        <members>MarketingProfile</members>
-        <members>Minimum Access - API Only Integrations</members>
-        <members>Minimum Access - Salesforce</members>
         <members>New_SF_Admin</members>
         <members>New_Standard_User</members>
-        <members>Partner App Subscription User</members>
-        <members>Read Only</members>
-        <members>Salesforce API Only System Integrations</members>
         <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>StandardAul</members>
         <members>Standard_User_New</members>
-        <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
     <types>

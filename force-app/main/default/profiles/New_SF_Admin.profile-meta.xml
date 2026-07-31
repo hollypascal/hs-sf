@@ -12,10 +12,6 @@
         <apexClass>ProductController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>SalesCallController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -59,16 +55,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sales_Call__c.Answered__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Sales_Call__c.Initial_Outreach__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Store__c.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -104,9 +90,6 @@
     <layoutAssignments>
         <layout>Partner__c-Partner Layout</layout>
         <recordType>Partner__c.AC</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sales_Call__c-Sales Call Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Store__c-Store Layout</layout>

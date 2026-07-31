@@ -8,10 +8,6 @@
         <apexClass>ProductController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>SalesCallController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -35,16 +31,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Sales_Call__c.Answered__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Sales_Call__c.Initial_Outreach__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Ticket__c.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -58,9 +44,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SalesCall__c-SalesCall Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sales_Call__c-Sales Call Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ticket__c-Ticket Layout</layout>

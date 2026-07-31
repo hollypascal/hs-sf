@@ -27,6 +27,7 @@
         <members>ProductRecordInfoControllerTest</members>
         <members>SOQLController</members>
         <members>SOQLControllerTest</members>
+        <members>SalesCallController</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -210,6 +211,8 @@
         <members>Project__c.Solutions_Architect__c</members>
         <members>SalesCall__c.Answered__c</members>
         <members>SalesCall__c.InitialOutreach__c</members>
+        <members>Sales_Call__c.Answered__c</members>
+        <members>Sales_Call__c.Initial_Outreach__c</members>
         <members>Store__c.Location__c</members>
         <members>Ticket__c.Description__c</members>
         <members>Ticket__c.OpenedDate__c</members>
@@ -237,6 +240,7 @@
         <members>Product_Family__c</members>
         <members>Product__c</members>
         <members>SalesCall__c</members>
+        <members>Sales_Call__c</members>
         <members>Store__c</members>
         <members>Ticket__c</members>
         <members>Voter__c</members>
@@ -487,6 +491,7 @@
         <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
         <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
         <members>SalesCall__c-SalesCall Layout</members>
+        <members>Sales_Call__c-Sales Call Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -656,9 +661,12 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>MarketingProfile</members>
         <members>New_SF_Admin</members>
         <members>New_Standard_User</members>
-        <members>SolutionManager</members>
         <members>Standard_User_New</members>
         <name>Profile</name>
     </types>
